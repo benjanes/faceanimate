@@ -1,0 +1,49 @@
+body {
+	background-color: #00CCCC;
+}
+
+#head {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 269px;
+	overflow: hidden;
+	align: left;
+}
+
+#head .face {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#head .r_eye {
+	position: relative;
+	top: -29px;
+	left: 46px;
+}
+
+#head .l_eye {
+	position: absolute;
+	top: -2px;
+	left: 96px;	
+}
+
+
+#headflip {
+	position: relative;
+	top: 20px;
+	width: 100%;
+	height: 269px;
+}
+#headflip .face {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#headflip .flip {
+	position: absolute;
+	top: 30px;
+	left: 260px;
+}
