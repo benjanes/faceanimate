@@ -138,17 +138,14 @@ $('.hulkout').click( function() {
 	$('#hulk .green').animate(
 		{
 			opacity: '.5',
-			filter: 'alpha(opacity=50)'
-		}, 700
-	).animate(
-		{
+			filter: 'alpha(opacity=50)',
 			top: '-1250px',
 			left: '-200px',
 			width: '1500px',
 			height: '1614px'
 		}, 4000
 	);
-	$('#hulk .face').delay(700).animate(
+	$('#hulk .face').animate(
 		{
 			top: '-1250px',
 			left: '-200px',
